@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MTS Automated Tests" preserve-order="true"
+	thread-count="1">
+ <test name="First test">
+		<classes>
+			<class
+				name="qai.login_gmail_runners.FirstRunner"/>
+		</classes> 
+	</test> 
+	</suite>

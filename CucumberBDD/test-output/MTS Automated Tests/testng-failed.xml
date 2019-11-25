@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [MTS Automated Tests]">
+  <test name="First test(failed)">
+    <classes>
+      <class name="qai.login_gmail_runners.FirstRunner">
+        <methods>
+          <include name="run_cukes"/>
+        </methods>
+      </class> <!-- qai.login_gmail_runners.FirstRunner -->
+    </classes>
+  </test> <!-- First test(failed) -->
+</suite> <!-- Failed suite [MTS Automated Tests] -->

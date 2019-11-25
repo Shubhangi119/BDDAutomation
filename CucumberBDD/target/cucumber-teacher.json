@@ -1,0 +1,52 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-25T10:06:57.849Z",
+        "line": 4,
+        "name": "User is able to login in gmail account",
+        "description": "",
+        "id": "gmail-login;user-is-able-to-login-in-gmail-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5251000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on google website",
+            "match": {
+              "location": "qai.login_gmail_stepdefs.StepDef_login.opengmail() in file:/C:/MTS2/login-gmail/target/classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the keyword to search",
+            "match": {
+              "location": "qai.login_gmail_stepdefs.StepDef_login.enterkeyword() in file:/C:/MTS2/login-gmail/target/classes/"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test1"
+          }
+        ]
+      }
+    ],
+    "name": "Gmail login",
+    "description": "",
+    "id": "gmail-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featuretest.feature",
+    "tags": []
+  }
+]
