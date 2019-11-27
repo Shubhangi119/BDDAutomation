@@ -5,8 +5,10 @@
     <classes>
       <class name="qai.login_gmail_runners.FirstRunner">
         <methods>
-          <include name="run_cukes"/>
+          <include name="runScenario"/>
           <include name="runSetup"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
         </methods>
       </class> <!-- qai.login_gmail_runners.FirstRunner -->
     </classes>

@@ -17,15 +17,15 @@ public class FirstRunner extends AbstractTestNGCucumberTests{
 		setup.setupBrowser();
 	}
 	
-	@Before
-	public void setupClasss() {
-		System.out.println("Before Scenario");
-	}
-	
-	@BeforeStep
-	public void beforeStep() {
-		System.out.println("Before Step");
-	}
+//	@Before
+//	public void setupClasss() {
+//		System.out.println("Before Scenario");
+//	}
+//	
+//	@BeforeStep
+//	public void beforeStep() {
+//		System.out.println("Before Step");
+//	}
 
 }
 

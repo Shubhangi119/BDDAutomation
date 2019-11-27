@@ -3,35 +3,97 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-11-25T10:06:57.849Z",
+        "start_timestamp": "2019-11-27T05:30:37.629Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qai.login_gmail_stepdefs.Hooks.init() in file:/C:/BDD/CucumberBDD/target/classes/"
+            }
+          }
+        ],
         "line": 4,
         "name": "User is able to login in gmail account",
         "description": "",
         "id": "gmail-login;user-is-able-to-login-in-gmail-account",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "qai.login_gmail_stepdefs.Hooks.cleanUp() in file:/C:/BDD/CucumberBDD/target/classes/"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 5251000000,
+              "duration": 1503000000,
               "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "qai.login_gmail_stepdefs.Hooks.beforeStep() in file:/C:/BDD/CucumberBDD/target/classes/"
+                }
+              }
+            ],
             "line": 5,
             "name": "I am on google website",
             "match": {
-              "location": "qai.login_gmail_stepdefs.StepDef_login.opengmail() in file:/C:/MTS2/login-gmail/target/classes/"
+              "location": "qai.login_gmail_stepdefs.StepDef_login.opengmail() in file:/C:/BDD/CucumberBDD/target/classes/"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "qai.login_gmail_stepdefs.Hooks.afterStep() in file:/C:/BDD/CucumberBDD/target/classes/"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
               "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "qai.login_gmail_stepdefs.Hooks.beforeStep() in file:/C:/BDD/CucumberBDD/target/classes/"
+                }
+              }
+            ],
             "line": 6,
             "name": "I enter the keyword to search",
             "match": {
-              "location": "qai.login_gmail_stepdefs.StepDef_login.enterkeyword() in file:/C:/MTS2/login-gmail/target/classes/"
+              "location": "qai.login_gmail_stepdefs.StepDef_login.enterkeyword() in file:/C:/BDD/CucumberBDD/target/classes/"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "qai.login_gmail_stepdefs.Hooks.afterStep() in file:/C:/BDD/CucumberBDD/target/classes/"
+                }
+              }
+            ],
             "keyword": "And "
           }
         ],

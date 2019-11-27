@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12270" started-at="2019-11-25T10:06:50Z" finished-at="2019-11-25T10:07:03Z">
+  <suite name="Default suite" duration-ms="8758" started-at="2019-11-27T05:30:30Z" finished-at="2019-11-27T05:30:39Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qai.login_gmail_runners.FirstRunner@60c6f5b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qai.login_gmail_runners.FirstRunner@49993335]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="12270" started-at="2019-11-25T10:06:50Z" finished-at="2019-11-25T10:07:03Z">
+    <test name="Default test" duration-ms="8758" started-at="2019-11-27T05:30:30Z" finished-at="2019-11-27T05:30:39Z">
       <class name="qai.login_gmail_runners.FirstRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:qai.login_gmail_runners.FirstRunner@60c6f5b]" name="setUpClass" is-config="true" duration-ms="330" started-at="2019-11-25T15:36:50Z" finished-at="2019-11-25T15:36:51Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:qai.login_gmail_runners.FirstRunner@49993335]" name="setUpClass" is-config="true" duration-ms="299" started-at="2019-11-27T11:00:30Z" finished-at="2019-11-27T11:00:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runSetup()[pri:0, instance:qai.login_gmail_runners.FirstRunner@60c6f5b]" name="runSetup" is-config="true" duration-ms="6284" started-at="2019-11-25T15:36:51Z" finished-at="2019-11-25T15:36:57Z">
+        <test-method status="PASS" signature="runSetup()[pri:0, instance:qai.login_gmail_runners.FirstRunner@49993335]" name="runSetup" is-config="true" duration-ms="6355" started-at="2019-11-27T11:00:30Z" finished-at="2019-11-27T11:00:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runSetup -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qai.login_gmail_runners.FirstRunner@60c6f5b]" name="runScenario" duration-ms="5407" started-at="2019-11-25T15:36:57Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-11-25T15:37:03Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qai.login_gmail_runners.FirstRunner@49993335]" name="runScenario" duration-ms="1745" started-at="2019-11-27T11:00:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-11-27T11:00:39Z">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:qai.login_gmail_runners.FirstRunner@60c6f5b]" name="tearDownClass" is-config="true" duration-ms="77" started-at="2019-11-25T15:37:03Z" finished-at="2019-11-25T15:37:03Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:qai.login_gmail_runners.FirstRunner@49993335]" name="tearDownClass" is-config="true" duration-ms="142" started-at="2019-11-27T11:00:39Z" finished-at="2019-11-27T11:00:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

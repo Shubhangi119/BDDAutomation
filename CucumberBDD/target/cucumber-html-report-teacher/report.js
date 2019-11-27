@@ -14,14 +14,26 @@ formatter.scenario({
     }
   ]
 });
+formatter.before({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
 formatter.step({
   "name": "I am on google website",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "qai.login_gmail_stepdefs.StepDef_login.opengmail() in file:/C:/MTS2/login-gmail/target/classes/"
+  "location": "qai.login_gmail_stepdefs.StepDef_login.opengmail() in file:/C:/BDD/CucumberBDD/target/classes/"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.afterstep({
+  "status": "passed"
+});
+formatter.beforestep({
   "status": "passed"
 });
 formatter.step({
@@ -29,9 +41,15 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "qai.login_gmail_stepdefs.StepDef_login.enterkeyword() in file:/C:/MTS2/login-gmail/target/classes/"
+  "location": "qai.login_gmail_stepdefs.StepDef_login.enterkeyword() in file:/C:/BDD/CucumberBDD/target/classes/"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.afterstep({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 });
